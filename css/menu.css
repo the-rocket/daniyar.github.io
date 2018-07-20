@@ -37,7 +37,7 @@
 	width: 20%;
 	height: 100%;
 	top: 0;
-	background: #000;
+	background: rgba(0,0,0,0.8);
 	padding: 72px 0px;
 	transition: width 0.3s ease-in;
 }
@@ -46,10 +46,11 @@
 }
 #nav-left.closed {
 	width: 0%;
-	transition: width 0.3s ease-in;
+	/*transition: width 0.3s ease-in;*/
 }
 #nav-left-list.closed {
 	visibility: hidden;
+	transition: visibility 0.2s ease-out;
 }
 
 #nav-menu-left:hover {
