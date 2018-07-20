@@ -1,0 +1,75 @@
+#nav-menu-left {    
+    display: block;
+    position: fixed;
+    top: 35px;
+    left: 25px;
+    z-index: 10;
+    height: 24px;
+}
+
+#nav-left-list, #nav-left-list a {
+	display: block;
+	text-align: center;
+}
+#nav-menu-left.closed {
+
+}
+#menuToggle.btn-close  {
+	background: none;
+}
+
+#menuToggle.btn-close:after  {
+	top: -2px;
+	width: 2rem;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg);
+    transition: all 0.3s ease-in;
+}
+#menuToggle.btn-close:before  {
+	top: 2px;
+	width: 2rem;
+	transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg); 
+    -webkit-transform: rotate(-45deg);
+    transition: all 0.3s ease-in;
+}
+#nav-left {
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	top: 0;
+	background: #000;
+	padding: 72px 0px;
+}
+#nav-menu-left:hover {
+	cursor: pointer;
+}
+#nav-menu-left:active {
+	background-color: rgba(255, 255,255, 0.50);
+}
+
+#menuToggle {
+	height: 4px;
+    width: 1.5em;
+    background-color: #fff;
+    margin-top: 8px;
+}
+#menuToggle:before, #menuToggle:after {
+	content: "";
+	display: block;
+	position: relative;
+	height: 4px;
+    width: 1.5em;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+
+
+#menuToggle:before {
+	top: -8px;
+}
+#menuToggle:after {
+	top: 4px;
+}

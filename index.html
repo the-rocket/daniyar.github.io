@@ -5,6 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Daniyar Blog</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<header>
@@ -15,8 +17,8 @@
 		      <span class="site-description">Software Developer</span>
 		      <br>
 		      <div class="header-icons">
-		        <a aria-label="Send email" href="daniyarkayirbolatov@gmail.com"><i class="icon fa fa-envelope"></i></a>
-		        <a aria-label="My Twitter" target="_blank" href="https://twitter.com/dkayirbolatov"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+		        <a aria-label="Send email" href="mailto:daniyarkayirbolatov@gmail.com"><i class="icon fa fa-envelope"></i></a>
+		        <a aria-label="My Twitter" target="_top" href="https://twitter.com/dkayirbolatov"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
 				<a aria-label="My Github" target="_blank" href="https://github.com/the-rocket"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
 				<a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/dkaiyrbolatov/"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
 				<a aria-label="My Music" href="#"><i class="icon fa fa-file-audio-o" aria-hidden="true"></i></a>				
@@ -32,8 +34,44 @@
 		  <canvas class="particles-js-canvas-el" width="3360" height="1034" style="width: 100%; height: 100%;"></canvas>
 		</div>
 	</header>
+	
+	<nav id="nav-left" class="menu">
+
+        <!--MENU-->
+        <div id="nav-left-list">
+
+            <!--PERSONAL LOGO-->
+            <div class="logo-flat">
+                
+            </div>
+            <br>
+
+            <!--OPTIONS-->
+            <a href="#home"><i class="title-icon fa fa-user"></i>Home</a>
+            <a href="#about"><i class="title-icon fa fa-dashboard"></i>About</a>
+            <a href="#education"><i class="title-icon fa fa-graduation-cap"></i>Education</a>
+            <a href="#skills"><i class="title-icon fa fa-sliders"></i>Skills</a>
+            <a href="#experience"><i class="title-icon fa fa-suitcase"></i>Experience</a>
+            <a href="#portfolios"><i class="title-icon fa fa-archive"></i>Portfolios</a>
+            <a href="#interest"><i class="title-icon fa fa-heart"></i>Interest</a>
+            <a href="#testimonials"><i class="title-icon fa fa-users"></i>Testimonials</a>
+            <a href="#pricing-table"><i class="title-icon fa fa-money"></i>Pricing</a>
+            <a href="#blog"><i class="title-icon fa fa-pencil-square"></i>Blog</a>
+            <a href="#contact"><i class="title-icon fa fa-envelope"></i>Contact</a>
+        </div>
+
+        <!-- MENU BUTTON -->
+
+        
+    </nav>
+    <a id="nav-menu-left" class="closed">
+	        <div id="menuToggle" class="btn-close">
+	           
+	        </div>
+    </a>
 	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 	<script type="text/javascript" src="js/sweet-scroll.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/nav.js"></script>
 </body>
 </html>
