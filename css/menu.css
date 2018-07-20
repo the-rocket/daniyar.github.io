@@ -11,9 +11,7 @@
 	display: block;
 	text-align: center;
 }
-#nav-menu-left.closed {
 
-}
 #menuToggle.btn-close  {
 	background: none;
 }
@@ -41,12 +39,24 @@
 	top: 0;
 	background: #000;
 	padding: 72px 0px;
+	transition: width 0.3s ease-in;
 }
+#nav-left i.fa {
+	display: inline;
+}
+#nav-left.closed {
+	width: 0%;
+	transition: width 0.3s ease-in;
+}
+#nav-left-list.closed {
+	visibility: hidden;
+}
+
 #nav-menu-left:hover {
 	cursor: pointer;
 }
 #nav-menu-left:active {
-	background-color: rgba(255, 255,255, 0.50);
+	
 }
 
 #menuToggle {
